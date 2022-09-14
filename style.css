@@ -2,50 +2,62 @@ body{
     margin: 0;
 }
 .background{
+    background-image: radial-gradient(circle, #D22564 0%, #ABABCD 100%);
     width: 100vw;
     height: 100vh;
+    margin: 0;
 }
 .sofa{
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    height: 40px;
 }
 .firs_color{
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    height: 40px;
 }
 .second_color{
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    height: 40px;
 }
 .gradient_random{
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
-    height: 40px;
+    height: 39px;
+    width: 59px;
+    border: none;
+    margin: 4px 6px;
 }
 .container_buttons{
     justify-content: center;
-    align-items: flex-end;
     display: flex;
     flex-direction: row;
     height: 16vh;
+    align-items: flex-end;
 }
-.dimension {
-    width: 64px;
+.dimensions {
+    width: 60px;
     height: 48px;
     margin: 0 2px;
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+}
+.container_img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    height: 72vh;
 }
 .img{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    height: 72vh;
+    align-content: center;
+    align-items: center;
 
 }
 
