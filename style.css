@@ -7,11 +7,6 @@ body{
     height: 100vh;
     margin: 0;
 }
-.sofa{
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-}
 .firs_color{
     text-align: center;
     font-size: 16px;
@@ -22,12 +17,13 @@ body{
     font-size: 16px;
     cursor: pointer;
 }
-.gradient_random{
+.gradient_random, .sofa{
+    background-color: darkgray;
+    color: darkslategrey;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     cursor: pointer;
     height: 39px;
-    width: 59px;
     border: none;
     margin: 4px 6px;
 }
